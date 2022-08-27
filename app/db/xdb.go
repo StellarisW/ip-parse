@@ -11,7 +11,7 @@ import (
 )
 
 const (
-	dbPath = "./app/xdb/data/ip2region.xdb"
+	dbPath = "./app/db/data/ip2region.xdb"
 )
 
 var searcher *xdb.Searcher
