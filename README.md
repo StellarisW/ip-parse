@@ -11,6 +11,7 @@ docker run -it \
 -p 8083:8083 \
 --restart=always \
 -d \
+-v /www/site/ip-parse/log:/server/log
 --name ip-parse \
 ip-parse
 ```
